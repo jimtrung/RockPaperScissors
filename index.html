@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kéo Búa Bao</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <p class="title">Kéo Búa Bao</p>
+  <div class="grid-container">
+    <div>
+      <button class="rock-button-container">
+        <img class="choice" src="icons/rock-emoji.png">
+      </button>
+      <button class="paper-button-container">
+        <img class="choice" src="icons/paper-emoji.png">
+      </button>
+      <button class="scissors-button-container">
+        <img class="choice" src="icons/scissors-emoji.png">
+      </button>
+      <div id="result"></div>
+      <p id="display"></p>
+      <button id="reset-button">Làm mới tỉ số</button>
+      <button id="auto-play-button">Tự động chơi</button>
+      <p class="confirm-reset"></p>
+    </div>
+
+    <div class="rule-and-key">
+      <p class="title">Luật chơi</p>
+      <p>
+        <img class="choice-result" src="icons/rock-emoji.png">
+        Thắng
+        <img class="choice-result" src="icons/scissors-emoji.png">
+
+        <img class="choice-result" src="icons/scissors-emoji.png">
+        Thắng
+        <img class="choice-result" src="icons/paper-emoji.png">
+
+        <img class="choice-result" src="icons/paper-emoji.png">
+        Thắng
+        <img class="choice-result" src="icons/rock-emoji.png">
+      </p>
+      <p class="tutorial">
+        <img class="key" src="icons/letter-q.png"> Búa <span class="space"></span>
+        <img class="key" src="icons/letter-w.png"> Bao <span class="space"></span>
+        <img class="key" src="icons/letter-e.png"> Kéo
+      </p>
+      <p class="tutorial"><img class="key" src="icons/letter-c.png"> Làm mới tỉ số</p>
+      <p class="tutorial"><img class="key" src="icons/letter-a.png"> Tự động chơi</span></p>
+      <p class="tutorial"><img class="key" src="icons/letter-s.png"> Dừng tự động chơi</p>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
